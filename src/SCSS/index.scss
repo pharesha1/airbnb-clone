@@ -29,10 +29,10 @@ section{
     flex-direction: column;
 }
 
-.experiences-img{
+.heroes-img{
     align-self: center;
-    max-width: 80%;
-    height: 400px;
+    width: auto;
+    max-height: 400px;
 }
 
 .heroes-p{
@@ -47,6 +47,7 @@ section{
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    position: absolute;
 }
 
 .cards::-webkit-scrollbar{
@@ -101,17 +102,22 @@ section{
 
 .content{
     position: relative;
+    margin: 10px;
 }
 
 .left-slide-div{
     position: absolute;
-    top: 50%;
-    margin: 10px;
+    left: 0%;
 }
 
 .right-slide-div{
     position: absolute;
-    top: 50%;
-    left: 100%;
-    margin: 10px;
+    right: 0%;
+}
+
+.slide-button{
+    all: unset;
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
 }
