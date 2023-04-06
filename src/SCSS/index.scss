@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: "Oswald", sans-serif;
+    background-color: white;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2px 7px gray;
+    box-sizing: content-box;
+}
+
+section{
+    padding: 20px;
+}
+
+.heroes{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences-img{
+    align-self: center;
+    max-width: 80%;
+    height: 400px;
+}
+
+.heroes-p{
+    margin: 15px 50px;
+}
+
+.heroes-h1{
+    margin: 10px 0px 0px 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    min-width: 200px;
+    max-width: 200px;
+    margin: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 4px 4px gray;
+    padding: 10px;
+    position: relative;
+}
+
+.mini-icons{
+    display: flex;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.card-photo{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 15px;
+}
+
+.star{
+    max-width: 100%;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.views{
+    color: gray;
+    margin-left: 3px;
+}
+
+.card-badge{
+    position: absolute;
+    background-color: white;
+    margin: 10px 8px;
+    padding: 2px;
+}
+
+.content{
+    position: relative;
+}
+
+.left-slide-div{
+    position: absolute;
+    top: 50%;
+    margin: 10px;
+}
+
+.right-slide-div{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin: 10px;
+}
