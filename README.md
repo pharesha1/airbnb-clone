@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Check the finished project in [Liverpool Heroes](https://liverpool-heroes.netlify.app/)
 
-To see finished project go to: [Liverpool Heroes](https://liverpool-heroes.netlify.app/)
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
